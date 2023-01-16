@@ -1,0 +1,55 @@
+.futureForecast {
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    background-color: rgba(24, 24, 27, 0.6);
+    padding: 2em 0 2em 0;
+    height: 15em;
+}
+
+.futureForecast::-webkit-scrollbar {
+    background: transparent;
+}
+
+.futureForecast::-webkit-scrollbar-thumb {
+    background:rgba(255, 255, 255, 0.1) !important;
+}
+
+.futureForecastItem {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 1em 0 1em;
+    max-height: 100%;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 150px;
+    max-width: 150px;
+    padding: 20px 10px 20px 10px;
+}
+
+.day {
+    text-align: center;
+}
+
+@media screen and (max-width: 1210px) {
+    .futureForecast {
+        /* align-items: none; */
+        justify-content: start;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (max-height: 636px) {
+    .futureForecast {
+        position: inherit;
+    }
+}

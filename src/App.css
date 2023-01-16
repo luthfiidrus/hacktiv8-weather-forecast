@@ -1,5 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-image: url('./images/pexels-fabian-wiktor-994605.jpg');
+  background-color: rgb(136, 136, 136);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  max-height: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {

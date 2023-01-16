@@ -1,0 +1,50 @@
+.currentInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2.5em 4.5em;
+    color: white;
+}
+
+.currentInfo .others {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(24, 24, 27, 0.6);
+    padding: 25px;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    margin: 2.5em 0 0 0;
+}
+
+.currentInfo .others .weatherItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dateContainer {
+    font-weight: 100;
+}
+
+.dateContainer .time {
+    font-size: 6em;
+}
+
+.dateContainer .date {
+    font-size: 3em;
+}
+
+.placeContainer {
+    text-align: end;
+    font-weight: 100;
+}
+
+.placeContainer .timeZone {
+    font-size: 2.5em;
+}
+
+.placeContainer .country {
+    font-size: 2em;
+    font-weight: 600;
+}
